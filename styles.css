@@ -1,0 +1,112 @@
+/* CSS Code to style the menu bar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav li{
+    float: right;
+}
+
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;  
+}
+
+nav li a:active{
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+nav li a:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+
+
+
+
+
+/* project style */
+
+header {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    font-family:monospace;
+    padding: 5px 0;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.project-description{
+    flex-grow: 1;
+}
+
+.project-image{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.project-link{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.title{
+    text-align: center;
+    font-style: italic;
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+.welcome{
+    text-align: center;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.embeded-link{
+    text-align: center;
+    margin: 50px;
+}
+
+.description{
+    margin: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow:auto;
+}
+
+
