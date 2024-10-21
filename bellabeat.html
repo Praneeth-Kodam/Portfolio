@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>   
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>   
+    </nav>   
+
+     <!-- Projects Section -->
+
+    <section id="projects" class="container">
+
+        <div class="project">
+            <h1 class = "title">Bellabeat</h1>
+            
+            <div class = "embeded-link">
+                <iframe  title="Bellabeat Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOTc3MzQ1M2YtYjc3Yi00YTA5LTg5YjAtNWM3NmM3YTQwNGVhIiwidCI6IjU0NGI0ZGU4LTY1OTQtNDQ4MC04OGJlLTgxZWY4Y2ZlODRkYSJ9" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+            <div class="description">
+                <h2>Description</h2>
+                <p>As part of my portfolio, I developed a comprehensive Power BI dashboard for AdventureWorks, a fictional retail company. The goal of this project was to provide actionable insights into key performance indicators across multiple business dimensions, including sales, product performance, profitability, and regional trends. </p>
+                <p>Below is a breakdown of the dashboard:</p>
+                
+                <h3>1. Overview Page</h3>
+                <p>This page presents a high-level view of key metrics, including:</p>
+                
+                <ol>
+                    <li><i>Total Sales:</i> A bar chart visualizes sales performance across different time periods.</li>
+                    <li><i>Profit Margin by Month:</i> A line chart illustrates the monthly profit margins, helping to track profitability trends over time.</li>
+                    <li><i>Total Sales by Region and Category:</i> A segmented bar chart shows how different regions and product categories contribute to the overall sales.</li>
+                    <li><i>Total Quantity by Product:</i> A chart displaying total quantities sold per product, offering insight into product popularity.</li>
+                </ol>
+                
+                   
+                <h3>2. Profits Page</h3>
+                <p> To analyze profitability in greater detail, I incorporated:</p>
+                
+                <ol>
+                    <li><i>Scatterplot:</i> Visualizing the relationship between profit and profit margin against total sales.</li>
+                    <li><i>Matrix:</i> Displays key metrics (sales, profit, and profit margin) broken down by category and subcategory, providing a detailed breakdown of performance.</li>  
+                    <li><i>Line Chart:</i> This shows Sales Year-to-Date (YTD) and Year-over-Year (YoY) growth, giving a clear view of sales trends by product.</li>
+                </ol>  
+                
+                <h3>3. Product Analysis Page</h3>
+                <p>I used parameterized charts to enable dynamic analysis based on user input. The two parameters are:</p>
+                <ol>
+                    <li><i>Dimension Parameter:</i> Includes Category, Subcategory, and Product.</li>
+                    <li><i>Measure Parameter:</i> Includes Sales, Quantity, Profit, and Profit Margin. These parameters allow for customized views in both a bar chart (Sales by selected parameters) and a matrix chart, enabling flexible, user-driven analysis.</li>
+                </ol>
+               
+                <h3>4. Trends Page</h3>
+                <p>The focus here is on understanding overall sales and order trends:</p>
+                <ol>
+                    <li><i>Total Sales by Month: </i>  A column chart displaying monthly sales performance.</li>
+                    <li><i>Profit by Month: </i>  A waterfall chart showing how profit changes over time.</li>
+                    <li><i>Orders by Month:</i>  A column chart tracking the number of orders month by month.</li>
+                    <li><i>Top 10 Products: </i>  A bar chart ranking the highest-selling products.</li>
+                </ol> 
+                
+                <h3>5. Regions Page</h3>
+                <p>This page helps analyze geographical sales performance:</p>
+                <ol>
+                    <li><i>Total Sales by Region (Map):</i> map chart showing sales distribution across different regions.</li>
+                    <li><i>Total Sales by Region Group:</i> A bar chart comparing sales across regional groups, providing insights into regional market strengths.</li>
+                </ol> 
+                    
+            </div>   
+        </div>
+    </section>
+    
+</body>
+</html>
